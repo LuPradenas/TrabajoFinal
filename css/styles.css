@@ -1,0 +1,136 @@
+ /*NAVIGATION*/
+
+  .navbar{
+    background-color:#2A446B ;
+  }
+.logo{
+  height: 150px;
+	width: 150px;
+ }
+ .navbar-brand{
+	margin-right: 0;
+ }
+ .navbar-nav{
+	align-items: center;
+ }
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.6em;
+	  padding: 0 1em;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #248f8d;
+ }
+ /*Carousel*/
+.carousel-item{
+    height: 33em;
+    background-color: #2A446B ;
+    background-image: url("../images/Recurso.png");
+    background-position: 41em 8em;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+.btn{
+    border-radius: 300px;
+    padding: 0.5rem 2rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #248f8d;
+}
+
+.btn:hover{
+    color: #248f8d;
+    background-color: #fff;
+}
+.text{
+    color:#248f8d;
+    font-weight: 700;
+}
+
+.container h1 {
+    font-size: 3.3125rem;
+    line-height: 1.15em;
+}
+
+.container .paragraph{
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+.container {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: presentacion 2s ease-out forwards;
+}
+
+@keyframes presentacion {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.linea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+#cards{
+  background-color: #f5f5f5 ;
+}
+.card{
+  padding:20px;
+
+}
+.text1{
+   font-size: 50px;
+}
+.card-title{
+  font-size: 30px;
+  font-weight: 800;
+}
+.card-text{
+   line-height: 1.5;
+   font-size: 20px;
+}
+.image-hover{
+   transition: transform 0.3s ease-in-out;
+}
+.image-hover:hover{
+  transform: scale(1.05);
+}
+.card-Mision{
+	background-color:#2A446B ;
+}
+
+.title-cd{
+  font-size: 45px;
+  padding: 10px;
+
+}
+.text2{
+  font-size: 50px;
+}
+ .lead-p{
+   line-height: 1.5;
+   font-size: 20px;
+   white-space:normal;
+ }
+ #instructors{
+  	background-color:#2A446B ;
+ }
+
+ .card-title-sub{
+ color: #fff;
+ }
+ .card-text-sub{
+  color: #fff;
+ }
