@@ -1,0 +1,174 @@
+/*-----BODY-----*/
+body {
+    font: inherit;
+    background-color:#2A446B ;
+    background-image: url("./Recurso.png");
+    background-position: 41em 8em;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    color:#fff;
+   
+}
+/*-----SOBRE NOSOTROS-----*/
+/*-----CARTAS-----*/
+.row {
+  margin: 0;
+  padding-left: 10px;
+}
+.container-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .column-1 {
+      width: 50%;
+  }
+  .column-2 {
+      width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .column-2,
+  .column-1 {
+      width: 33%;
+  }
+}
+
+/*-----CARTAS-----*/
+/*-----MISION, VISION, VALORES-----*/
+.mission-vision-values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+.point h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.point .content {
+  margin-bottom: 20px;
+}
+
+.point .image {
+  display: flex;
+  justify-content: center;
+}
+
+.point .image img {
+  max-width: 300px;
+  height: auto;
+}
+
+/*-----MISION, VISION, VALORES-----*/
+/*-----SOBRE NOSOTROS-----*/
+
+/*-----CONTACT-----*/
+#contact-us {
+    padding: 50px 0;
+  
+  }
+
+  #contact-us h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+.linea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+  #contact-us .contact-info {
+    margin-bottom: 40px;
+  }
+
+  #contact-us .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #contact-us .contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  #contact-us .social-media a {
+    color: #248f8d;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  #contact-us form {
+    
+    padding: 30px;
+    border-radius: 5px;
+  }
+
+  #contact-us form label {
+    font-weight: bold;
+  }
+
+  #contact-us form .form-control {
+    margin-bottom: 20px;
+  }
+
+  #contact-us form textarea {
+    resize: vertical;
+  }
+
+  #contact-us form button {
+    display: block;
+    margin-top: 20px;
+    background-color: #248f8d;
+  }
+
+   /* Estilos para las animaciones */
+
+   .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .bounce {
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+
